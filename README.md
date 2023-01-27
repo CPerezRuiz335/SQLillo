@@ -1,5 +1,10 @@
 
 <h1 align="center"> SQLillo </h1>
 
-![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
-![Last commit]("https://img.shields.io/github/gist/last-commit/https://github.com/CPerezRuiz335/SQLillo/blob/main/README.md")
+<div align="center">
+  <img alt="Python" src="https://img.shields.io/badge/python-v3.6+-blue.svg">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/CPerezRuiz335/SQLillo?color=informational">
+  </div>
+
+<div align="justify">
+<br>
