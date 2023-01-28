@@ -125,12 +125,13 @@ python3 main.py bfs.py random.py random.py random.py
 
 #### Controls
 
-| C     | Reset game              |
+
 |-------|-------------------------|
-| SPACE | Stop/Play game          |
-| ←     | Stop & replay backwards |
-| →     | Stop & Replay forwards  |
-| Q     | Quit                    |
+| **C**     | Reset game              |
+| **SPACE** | Stop/Play game          |
+|**←**      | Stop & replay backwards |
+| **→**     | Stop & Replay forwards  |
+| **Q**     | Quit                    |
 
 
 
