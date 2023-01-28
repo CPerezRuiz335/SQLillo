@@ -11,7 +11,22 @@
   <img src="media/output.gif" alt="animated" />
 </p>
 
+Contents
+---------
 
+* [Rules](#rules)
+* [Strategy](#strategy)
+* [Usage](#usage)
+
+### Rules
+### Strategy
+
+#### Worker
+#### Mapa
+#### Memory
+#### Random
+
+### Usage
 
 
 
