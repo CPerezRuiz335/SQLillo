@@ -34,6 +34,13 @@ When the game is over the winner becomes the player with the biggest connected c
   
 _Adapted from https://sqlillo.com/  (no longer working)_
 
+Contents
+---------
+
+* [Rules](#rules)
+* [Strategy](#strategy)
+* [Usage](#usage)
+
 ## Rules
 
 + Two or more workers in the same coordinate are not allowed.
@@ -53,7 +60,7 @@ for each player. Strategies that involve multiple files are not tested and every
 be inside the function strategy.
 
 ```
-def strategy(mapa: Board, worker: Worker, memory: Dict[Any, Any]) -> None:
+def strategy(mapa: Board, worker: Tuple[Worker], memory: Dict[Any, Any]) -> None:
     for w in range(8):
         r = randint(0, 3)
         match r:
@@ -68,9 +75,14 @@ def strategy(mapa: Board, worker: Worker, memory: Dict[Any, Any]) -> None:
 ```
 
 #### Worker
+
+Each player has a tuple of 8 workers that do not change positions between ticks (you can control everyone
+by its position in the tuple). You control every worker by for methods and everyone has its x and y position,
+and its team color (BLUE, YELLOW, GREEN, RED) which are predefined constants. VALIDMOVES and ANY are also available 
+constants for every player, check them inside sqlillo/
+
 #### Mapa
 #### Memory
-#### Sample code
 
 ## Usage
 
