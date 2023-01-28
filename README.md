@@ -41,15 +41,18 @@ Contents
 * [Strategy](#strategy)
 * [Usage](#usage)
 
-### Rules
-### Strategy
+## Rules
+
++ Each worker has to be in a unique position.
+
+## Strategy
 
 #### Worker
 #### Mapa
 #### Memory
 #### Random
 
-### Usage
+## Usage
 
 
 
