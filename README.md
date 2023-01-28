@@ -60,6 +60,7 @@ for each player. Strategies that involve multiple files are not tested and every
 be inside the function strategy.
 
 ```
+# strategies/random.py
 def strategy(mapa: Board, worker: Tuple[Worker], memory: Dict[Any, Any]) -> None:
     for w in range(8):
         r = randint(0, 3)

@@ -28,10 +28,6 @@ class Worker:
 
     def _coords(self) -> Tuple[int, int]:
         return (ROWS - self.__y - 1, self.__x)
-
-    def __valid_moves(self) -> List[Tuple[int, int]]:
-        return [(i+self.__prevX,j+self.__prevY) for i,j in VALIDMOVES]
-        # VALIDMOVES = [[-1,0], [1,0], [0,-1], [0,1]]
         
     # Setters
     def _invalidate(self):
@@ -43,20 +39,20 @@ class Worker:
         self.__prevY = self.__y
     
     def move_down(self):
-        if (self.__prevX, self.__prevY - 1) in self.__valid_moves():
-            self.__y = self.__prevY - 1 if (self.__prevY - 1) >= 0 else 0 
+        if (self.__prevY - 1) >= 0:
+            self.__y = self.__prevY - 1 
             
     def move_up(self):
-        if (self.__prevX, self.__prevY + 1) in self.__valid_moves():
-            self.__y = self.__prevY + 1 if (self.__prevY - 1) >= 0 else 0
+        if (self.__prevY + 1) < 40:
+            self.__y = self.__prevY + 1 
             
     def move_left(self):
-        if (self.__prevX - 1, self.__prevY) in self.__valid_moves():
-            self.__x = self.__prevX - 1 if (self.__prevX - 1) >= 0 else 0
+        if self.__prevX - 1 >= 0:
+            self.__x = self.__prevX - 1 
              
     def move_right(self):
-        if (self.__prevX + 1, self.__prevY) in self.__valid_moves():
-            self.__x = self.__prevX + 1 if (self.__prevX + 1) < 40 else 0
+        if self.__prevX + 1 < 40:
+            self.__x = self.__prevX + 1 
     
     # Other methods
     def __eq__(self, other: object) -> bool:
