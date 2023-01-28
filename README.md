@@ -96,7 +96,7 @@ worker[w].color
 2 4 7
 ```
 
-If a player moves multiple times the same worker only the last movement will be applied!
+If a player moves multiple times the same worker only the last movement will be considered!
 
 #### Mapa
 
