@@ -4,12 +4,7 @@
 <div align="center">
   <img alt="Python" src="https://img.shields.io/badge/python-v3.10+-blue.svg">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/CPerezRuiz335/SQLillo?color=informational">
+  ![Shallow Backup GIF Demo](img/shallow-backup-demo.gif)
  </div>
   
 
-<div align="justify">
-[Getting started](#getting-started) 
-[Installation](#installation) 
-[Configuration](#configuration) 
-[Integrations](#third-party-integrations)
-<\div>
