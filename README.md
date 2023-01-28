@@ -30,6 +30,7 @@ When a worker moves to a position, he paints his path with the color of that wor
 color of that worker. Therefore, after a few ticks the map will be a beautiful and 
 colorful canvas with the colors of the players. 
 
+_Adapted from https://sqlillo.com/  (no longer working)_
 
 Contents
 ---------
