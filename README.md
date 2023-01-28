@@ -48,14 +48,14 @@ Contents
     However, two adjacent workers can swap positions because this rule is not violated 
     on the next tick.
 + Workers can not overrun edges and appear on the opposite side.
-+ Each match lasts 500 ticks but you can change that in main.py line 34.
++ Each game lasts 500 ticks, but you can change that in main.py line 34.
 + Connected components are not evaluated considering diagonal adjacencies.
 + Have fun.
 
 ## Strategy
 
-Your strategy has to be defined in a unique file without imports, if you want some fancy
-library import it in the main.py file. There you can control which libraries are available 
+Your strategy has to be defined in a unique file without imports, if you want to import some 
+fancy import it in the main.py file. There you can control which libraries are available 
 for each player. Strategies that involve multiple files are not tested and everything must
 be inside the function strategy.
 
@@ -89,13 +89,13 @@ worker[w].x
 worker[w].y
 worker[w].color
 
-# Initial positions and indexes for w
+# Initial positions and indexes for worker
 0 3 5
 1   6
 2 4 7
 ```
 
-**If a player moves multiple times the same worker only the last movement will be applied!**
+If a player moves multiple times the same worker only the last movement will be applied!
 
 #### Mapa
 
