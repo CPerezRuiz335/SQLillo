@@ -48,16 +48,25 @@ Contents
     However, two adjacent workers can swap positions because this rule is not violated 
     on the next tick.
 + Workers can not overrun edges and appear on the opposite side.
-+ Each match lasts 500 ticks but you can change that in main.py
++ Each match lasts 500 ticks but you can change that in main.py line 34.
 + Connected components are not evaluated considering diagonal adjacencies.
 + Have fun.
 
 ## Strategy
 
+Your strategy has to be defined in a unique file without imports, if you want some fancy
+library import it in the main.py file. There you can control which libraries are available 
+for each player.
+
+'''sh
+def strategy(mapa: Board, worker: Worker, memory: Dict[Any, Any]) -> None:
+  ...
+'''
+
 #### Worker
 #### Mapa
 #### Memory
-#### Random
+#### Sample code
 
 ## Usage
 
