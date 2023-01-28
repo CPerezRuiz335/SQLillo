@@ -114,24 +114,20 @@ class Board:
     # SCORE    
     def __score_update(self, square: __Square, row: int, col: int):
         if square.color in TEAMBLUE:
-            color = TEAMBLUE
-            score = self.__dfs((row, col), color)
-            self.__scoreBlue  = max(self.__scoreBlue, score)
+            score = self.__dfs((row, col), TEAMBLUE)
+            self.__scoreBlue = max(self.__scoreBlue, score)
         
         elif square.color in TEAMGREEN:
-            color = TEAMGREEN
-            score = self.__dfs((row, col), color)
-            self.__scoreGreen  = max(self.__scoreGreen, score)
+            score = self.__dfs((row, col), TEAMGREEN)
+            self.__scoreGreen = max(self.__scoreGreen, score)
         
         elif square.color in TEAMYELLOW:
-            color = TEAMYELLOW
-            score = self.__dfs((row, col), color)
-            self.__scoreYellow  = max(self.__scoreYellow, score)
+            score = self.__dfs((row, col), TEAMYELLOW)
+            self.__scoreYellow = max(self.__scoreYellow, score)
         
         elif square.color in TEAMRED:
-            color = TEAMRED
-            score = self.__dfs((row, col), color)
-            self.__scoreRed  = max(self.__scoreRed, score)  
+            score = self.__dfs((row, col), TEAMRED)
+            self.__scoreRed = max(self.__scoreRed, score)  
     
     
     # Get valid moves  
