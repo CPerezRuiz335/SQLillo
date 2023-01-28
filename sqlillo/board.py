@@ -51,7 +51,7 @@ class Board:
     
     @property
     def workers(self):
-        return self.__workers  
+        return tuple(self.__workers) 
 
     ## Get scores
     def _scores(self):
