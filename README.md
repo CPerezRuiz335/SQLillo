@@ -29,7 +29,7 @@ on the next tick, if there are no collisions (see the rules section for more det
 it paints its path with a softer tonality than your team's color. Therefore, 
 after a few ticks, the map will be a beautiful and colorful canvas with the colors of the players. 
 
-When the game is over the winner becomes the player with biggest connected component!  
+When the game is over the winner becomes the player with the biggest connected component!  
 </p>
   
 _Adapted from https://sqlillo.com/  (no longer working)_
