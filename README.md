@@ -6,5 +6,7 @@
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/CPerezRuiz335/SQLillo?color=informational">
   
  </div>
-  
+ 
+ ![Shallow Backup GIF Demo](media/demo.webm)
+
 
