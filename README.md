@@ -7,7 +7,7 @@
   
  </div>
  
-![output](media/demo.gif)
+![output](media/output.gif)
 
 
 
