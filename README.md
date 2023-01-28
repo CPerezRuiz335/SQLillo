@@ -32,7 +32,7 @@ after a few ticks, the map will be a beautiful and colorful canvas with the colo
 When the game is over the winner becomes the player with the biggest connected component!  
 </p>
   
-_Adapted from https://sqlillo.com/  (no longer working)_
+_Adapted and inspired by https://sqlillo.com/  (no longer working)_
 
 Contents
 ---------
