@@ -7,7 +7,9 @@
 
  </div>
  
- <p align="center;"> ![output](media/output.gif) </p>
+<p align="center">
+  <img src="media/output.gif" alt="animated" />
+</p>
 
 
 
