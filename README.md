@@ -58,7 +58,7 @@ Your strategy has to be defined in a unique file without imports, if you want so
 library import it in the main.py file. There you can control which libraries are available 
 for each player.
 
-'''sh
+'''
 def strategy(mapa: Board, worker: Worker, memory: Dict[Any, Any]) -> None:
   ...
 '''
