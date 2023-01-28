@@ -43,20 +43,20 @@ class Worker:
         self.__prevY = self.__y
     
     def move_down(self):
-        if (self.__x, self.__y - 1) in self.__valid_moves():
-            self.__y -= 1 if (self.__y - 1) >= 0 else 0 
+        if (self.__prevX, self.__prevY - 1) in self.__valid_moves():
+            self.__y = self.__prevY - 1 if (self.__prevY - 1) >= 0 else 0 
             
     def move_up(self):
-        if (self.__x, self.__y + 1) in self.__valid_moves():
-            self.__y += 1 if (self.__y + 1) < 40 else 0
+        if (self.__prevX, self.__prevY + 1) in self.__valid_moves():
+            self.__y = self.__prevY + 1 if (self.__prevY - 1) >= 0 else 0
             
     def move_left(self):
-        if (self.__x - 1, self.__y) in self.__valid_moves():
-            self.__x -= 1 if (self.__x - 1) >= 0 else 0
+        if (self.__prevX - 1, self.__prevY) in self.__valid_moves():
+            self.__x = self.__prevX - 1 if (self.__prevX - 1) >= 0 else 0
              
     def move_right(self):
-        if (self.__x + 1, self.__y) in self.__valid_moves():
-            self.__x += 1 if (self.__x + 1) < 40 else 0
+        if (self.__prevX + 1, self.__prevY) in self.__valid_moves():
+            self.__x = self.__prevX + 1 if (self.__prevX + 1) < 40 else 0
     
     # Other methods
     def __eq__(self, other: object) -> bool:
