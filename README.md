@@ -7,7 +7,7 @@
   
  </div>
  
-![output](https://user-images.githubusercontent.com/69759265/215263952-1d1a0141-730a-4273-bbdb-a500617c8dbd.gif)
+![output](media/demo.gif)
 
 
 
