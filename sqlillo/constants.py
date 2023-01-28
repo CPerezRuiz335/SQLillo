@@ -1,0 +1,53 @@
+## Colors
+EMPTY = (0, 0, 0)
+## Green player
+GREEN = (57, 255, 20); SHADOWGREEN = (0, 75, 73)
+## Blue player
+BLUE = (8, 232, 222); SHADOWBLUE  = (8,37, 103)
+## Red player
+RED  = (255, 36, 0); SHADOWRED  = (56, 0, 0)
+## Yellow player
+YELLOW  = (255, 255, 0); SHADOWYELLOW  = (53, 47, 46)
+
+EMPTY_COLORS = EMPTYSQUARE = [SHADOWGREEN, SHADOWBLUE, SHADOWRED, SHADOWYELLOW, EMPTY]
+
+TEAMBLUE   = [BLUE, SHADOWBLUE]
+TEAMGREEN  = [GREEN, SHADOWGREEN]
+TEAMRED    =  [RED, SHADOWRED]
+TEAMYELLOW = [YELLOW, SHADOWYELLOW]
+
+WORKERCOLORS = [BLUE, RED, YELLOW, GREEN]
+
+ANY = [RED, YELLOW, BLUE, GREEN, EMPTY]
+
+## Grid
+
+GRID = 7 # Width between squares
+ROWS = COLS = 40
+WIDTH = 850 + 500
+HEIGHT = 850
+SQUARE_SIZE = HEIGHT // ROWS
+
+
+## Score
+
+GREENBAR  = (112,130,56)
+BLUEBAR   = (0, 79, 152)
+REDBAR    = (70, 0, 0)
+YELLOWBAR = (255, 255, 0)
+
+## Workers constants
+LAYOUT = [[-1,1], [-1,0], [-1,-1], [0,1], [0,-1], [1,1], [1,0], [1,-1]]
+VALIDMOVES = [[-1,0], [1,0], [0,-1], [0,1]]
+
+## Other 
+PURPLE = (139, 0 ,139)
+
+"""
+ 0 3 5
+ 1   6
+ 2 4 7
+"""
+
+
+
