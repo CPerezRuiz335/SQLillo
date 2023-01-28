@@ -56,7 +56,8 @@ Contents
 
 Your strategy has to be defined in a unique file without imports, if you want some fancy
 library import it in the main.py file. There you can control which libraries are available 
-for each player.
+for each player. Strategies that involve multiple files are not tested and everything must
+be inside the function strategy.
 
 ```
 def strategy(mapa: Board, worker: Worker, memory: Dict[Any, Any]) -> None:
