@@ -77,9 +77,23 @@ def strategy(mapa: Board, worker: Tuple[Worker], memory: Dict[Any, Any]) -> None
 #### Worker
 
 Each player has a tuple of 8 workers that do not change positions between ticks (you can control everyone
-by its position in the tuple). You control every worker by for methods and everyone has its x and y position,
+by its position in the tuple). You control every worker with four methods and everyone has its x and y position,
 and its team color (BLUE, YELLOW, GREEN, RED) which are predefined constants. VALIDMOVES and ANY are also available 
-constants for every player, check them inside sqlillo/
+constants for every player.
+
+```
+VALIDMOVES = [[-1,0], [1,0], [0,-1], [0,1]]
+ANY = [RED, YELLOW, BLUE, GREEN, EMPTY]
+
+worker[w].x
+worker[w].y
+worker[w].color
+
+# Initial positions and indices
+0 3 5
+1   6
+2 4 7
+```
 
 #### Mapa
 #### Memory
