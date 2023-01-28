@@ -34,13 +34,6 @@ When the game is over the winner becomes the player with the biggest connected c
   
 _Adapted from https://sqlillo.com/  (no longer working)_
 
-Contents
----------
-
-* [Rules](#rules)
-* [Strategy](#strategy)
-* [Usage](#usage)
-
 ## Rules
 
 + Two or more workers in the same coordinate are not allowed.
