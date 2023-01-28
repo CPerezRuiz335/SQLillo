@@ -7,7 +7,7 @@
 
  </div>
  
- <p style="text-align: center;"> ![output](media/output.gif) </p>
+ <p align="center;"> ![output](media/output.gif) </p>
 
 
 
