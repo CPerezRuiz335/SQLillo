@@ -11,10 +11,11 @@
   <img src="media/output.gif" alt="animated" />
 </p>
 
-There is a map, you can imagine it as an N-dimensional canvas. 
+There is a map, you can imagine it as an N-dimensional canvas of 40x40. 
 The map has only integer positions like [1, 2], no decimals allowed! 
-We will use a Cartesian coordinate system for it. You (a player) 
-are assigned a unique color. In addition, you have a set of what we call 'worker'.
+We will use a Cartesian coordinate system for it, where bottom left corner corresponds to the origin
+and top right corner is [39, 39] coordinate. You (a player) are assigned a unique color. 
+In addition, you have a set of what we call 'worker'.
 
 Each 'worker' has a palette of your unique color and can paint the map. 
 However, he can only paint in the vertical and horizontal directions, and the squares 
