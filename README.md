@@ -89,16 +89,47 @@ worker[w].x
 worker[w].y
 worker[w].color
 
-# Initial positions and indices
+# Initial positions and indexes for w
 0 3 5
 1   6
 2 4 7
 ```
 
+**If a player moves multiple times the same worker only the last movement will be applied!**
+
 #### Mapa
+
+Each player has a copy of the board which contains a tuple of copies of all workers on the board. 
+In addition you can check the color of every coordinate.
+
+```
+mapa.workers
+mapa[x, y] -> BLUE, YELLOW, GREEN, RED, EMPTY
+```
+
 #### Memory
 
+This is a dictionary where you can save whatever you want. Everything you put inside is not lost between ticks.
+
 ## Usage
+
+If no strategy is supplied four random players are displayed. You can make 1 up to 4 strategies compete against each other.
+main.py looks up strategies folder so if you create one you have to put your file inside strategies.
+
+```sh
+python3 main.py STRATEGY STRATEGY STRATEGY STRATEGY
+
+# demo gif
+python3 main.py bfs.py random.py random.py random.py
+```
+
+#### Controls
+
+| C     | Reset game              |
+| SPACE | Stop/Play game          |
+| ←     | Stop & replay backwards |
+| →     | Stop & Replay forwards  |
+| Q     | Quit                    |
 
 
 
