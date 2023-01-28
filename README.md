@@ -11,6 +11,8 @@
   <img src="media/output.gif" alt="animated" />
 </p>
 
+<p align="justify"> 
+
 There is a map, you can imagine it as an N-dimensional canvas of 40x40. 
 The map has only integer positions like [1, 2], no decimals allowed! 
 We will use a Cartesian coordinate system for it, where bottom left corner corresponds to the origin
@@ -30,7 +32,8 @@ the workers will be placed on the for more details) the workers will be placed i
 When a worker moves to a position, he paints his path with the color of that worker. 
 color of that worker. Therefore, after a few ticks the map will be a beautiful and 
 colorful canvas with the colors of the players. 
-
+</p>
+  
 _Adapted from https://sqlillo.com/  (no longer working)_
 
 Contents
