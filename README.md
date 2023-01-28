@@ -131,7 +131,7 @@ python3 main.py bfs.py random.py random.py random.py
 | **C**     | New game              |
 | **SPACE** | Stop/Play game          |
 |**←**      | Stop & replay backwards |
-| **→**     | Stop & Replay forwards  |
+| **→**     | Stop & replay forwards  |
 | **Q**     | Quit                    |
 
 
