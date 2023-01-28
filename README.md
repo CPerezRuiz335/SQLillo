@@ -28,6 +28,8 @@ on the next tick, if there are no collisions (see the rules section for more det
 <i>worker</i> will be placed in the defined position. When a <i>worker</i> moves to its desired position, 
 it paints its path with a softer tonality than your team's color. Therefore, 
 after a few ticks, the map will be a beautiful and colorful canvas with the colors of the players. 
+
+When the game is over the winner becomes the player with biggest connected component!  
 </p>
   
 _Adapted from https://sqlillo.com/  (no longer working)_
