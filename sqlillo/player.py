@@ -33,7 +33,7 @@ class Player:
         self.workers = [Worker(i, j, teamColor) for i,j in player_layout]
  
     def play(self, mapa: Board): 
-        self.strategy.fun(mapa, self.workers, self.memory) 
+        self.strategy.fun(mapa, tuple(self.workers), self.memory) 
 
     def __str__(self) -> str:
         color = {
