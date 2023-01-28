@@ -44,9 +44,9 @@ Contents
 ## Rules
 
 + Two or more workers in the same coordinate are not allowed.
-  * They will be invalidated and their positions will be the same as the previous tick.
+  * They will be invalidated and their positions will be the same as the previous tick.\
     However, two adjacent workers can swap positions because this rule is not violated 
-    in the next tick.
+    on the next tick.
 + Workers can not overrun edges and appear on the opposite side.
 + Each match lasts 500 ticks but you can change that in main.py
 + Connected components are not evaluated considering diagonal adjacencies.
